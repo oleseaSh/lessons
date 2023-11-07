@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100%;
+    display: block;
+    background-color:#191919;
+    
+    
+  }
+  .mainContainer {
+    padding: 15px;
+    width: 400px;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 30px;
+    background-color:white;
+  
+  }
+  .title{
+    display: block;
+    color: rgb(50, 50, 116);
+  }
+  .mainContainer2 {
+    padding: 15px;
+    width: auto;
+    max-width: 100%;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 30px;
+    background-color:white;
+  }
+
+  .mainContainer3 {
+    padding: 15px;
+    width: auto;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 30px;
+    background-color:white;
+  }
+  .mainContainer4 {
+    width: 50%;
+    display: inline;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 30px;
+    background-color:white;
+  }
+  .container-5 {
+    padding: 15px;
+    width: 50%;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 30px;
+    background-color:white;
+  }
+  .box-1 {
+    width: auto;
+    display: block;
+    background-color: rgb(235, 173, 98);
+    font-size: 18px;
+    font-style: solid;
+    padding: 30px;
+    border: 1px color rgb(37, 37, 54);
+    margin: 30px;
+    border-radius: 15px;
+    border-style: dotted;
+     }
+     .box-2 {
+      width: auto;
+      display: block;
+      background-color: rgb(79, 218, 102);
+      font-size: 18px;
+      font-style: solid;
+      padding: 30px;
+      border: 1px color rgb(37, 37, 54);
+      margin: 30px;
+      border-radius: 15px;
+      border-style: dotted;
+       }
+       .box-3 {
+        width: auto;
+        display: block;
+        background-color: rgb(178, 106, 236);
+        font-size: 18px;
+        font-style: solid;
+        padding: 30px;
+        border: 1px color rgb(37, 37, 54);
+        margin: 30px;
+        border-radius: 15px;
+        border-style: dotted;
+         }
+
+    
+  
