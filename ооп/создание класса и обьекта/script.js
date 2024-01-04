@@ -102,3 +102,29 @@ class Book {
 
 let myBook = new Book("Унесенные Ветром", "Маргаретт Митчелл", 1936);
 myBook.displayInfo();
+
+
+class Triangle {
+    constructor(side1, side2, side3) {
+        this.side1 = side1;
+        this.side2 = side2;
+        this.side3 = side3;
+    }
+    // Метод setSides используется для изменеия значений сторон треугольника.
+    setSides(side1, side2, side3) {
+        this.side1 = side1;
+        this.side2 = side2;
+        this.side3 = side3;
+    }
+    // вычисляем площадь по формуле Герона.
+    calculateArea() {
+        const s = (this.side1 + this.side2 + this.side3) / 2;
+        const area = Math.sqrt(s* (s - this.side1) * (s - this.side2) * (s - this.side3));
+        return area;
+    }
+}
+
+let myTriangle = new Triangle(3,4,5);
+console.log(myTriangle.calculateArea());
+myTriangle.setSides(5,5,5);
+console.log(myTriangle.calculateArea());
