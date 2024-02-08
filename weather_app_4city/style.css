@@ -1,0 +1,9 @@
+div {
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.podcasts {
+    display: flex;
+    flex-direction: column;
+}
