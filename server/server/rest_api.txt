@@ -1,0 +1,43 @@
+//HTTP
+//Hyper Text Transfer Protocol
+
+/*
+* GET - получение данных
+* POST - создание данных
+* PUT - редактирование данных
+* DELETE - удаление данных
+* */
+
+/*
+* 2xx - success
+* 3xx - redirect
+* 4xx - client error
+* 5xx - server error
+* */
+
+/*
+* REST API
+* client side
+* http://someserver.com/barber
+* POST
+* body: {
+*  username: 'Vase Pupkin',
+*  password: '1234'
+* }
+* Создание пользователя
+*
+* server side
+* @POST('/barber')
+* function(user) {
+*    database.CreateUser(user)
+*    return response.status(200).json(user)
+* }
+*
+* JSON - JavaScript Object Notation
+*
+* REST API
+* POST - http://someserver.com/barber C - create
+* GET - http://someserver.com/barber  R - read
+* PUT - http://someserver.com/barber  U - update
+* DELETE-http://someserver.com/barber D - delete
+* */
